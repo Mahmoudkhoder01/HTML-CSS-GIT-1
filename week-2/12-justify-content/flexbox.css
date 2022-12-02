@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.countries--first {
+  justify-content: end;
+}
+
 .countries--second .country {
   padding: 0.5em;
 }
