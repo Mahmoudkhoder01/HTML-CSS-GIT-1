@@ -1,1 +1,39 @@
 /* Add your own CSS code below */
+.love {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-article {
+  max-width: 50em;
+  line-height: 2pc;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .view-list__item {
+    margin-left: 10px;
+  }
+}
