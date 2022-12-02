@@ -86,7 +86,14 @@
               </p>
               <p>
                 <label for="delivery-country">Country</label>
-                <input type="text" name="delivery-country" id="delivery-country" required />
+                <input
+                  type="text"
+                  name="delivery-country"
+                  id="delivery-country"
+                  value="United Kingdom"
+                  readonly
+                  required
+                />
               </p>
               <fieldset>
                 <legend>Delivery Options</legend>
@@ -96,6 +103,8 @@
                     name="delivery-option"
                     id="delivery-option"
                     value="standard"
+                    checked
+                    disabled
                   />
                   Royal Mail
                 </label>
